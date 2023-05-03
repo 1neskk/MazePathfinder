@@ -20,7 +20,9 @@ Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS suppo
 - You will need to use the [SFML 2.5.1](https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip) from their website instead of the current submodule.
 
 ### Credits
+
 ---
+
 #### Inspired by:
 - [xSnapi's pathfinding implementation using SFML](https://github.com/xSnapi/cpp_pathfinding_using_sfml)
 
