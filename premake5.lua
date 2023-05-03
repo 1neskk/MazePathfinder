@@ -56,13 +56,14 @@ workspace "Maze"
             }
             
         filter "configurations:Debug"
-            defines "ENGINE_DEBUG"
+            defines "DEBUG"
             symbols "On"
             
         filter "configurations:Release"
-            defines "ENGINE_RELEASE"
+            defines "RELEASE"
             optimize "On"
             
         filter "configurations:Dist"
-            defines "ENGINE_DIST"
+            defines "DIST"
             optimize "On"
+            kind "WindowedApp"

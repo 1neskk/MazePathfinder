@@ -12,9 +12,9 @@
 constexpr int width = 1200;
 constexpr int height = 900;
 
-#ifdef NDEBUG
-#pragma comment(linker, "/subsystem:windows /ENTRY:mainCRTStartup")
+#ifdef DIST
+#pragma comment(linker, "/subsystem:windows")
 #define LOG(x)
 #else
 #define LOG(x) std::cout << x << std::endl
-#endif // NDEBUG
+#endif // DIST
