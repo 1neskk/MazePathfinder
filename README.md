@@ -13,7 +13,7 @@ Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS suppo
 1. Clone recursively: `git clone --recursive https://github.com/1neskk/MazePathfinder`
 2. Run `scripts/setup.bat`
 3. Open the solution file and hit F7 to build
-4. Drag the SFML binaries `sfml-window-2.dll, sfml-graphics-2.dll and sfml-system-2.dll` to your output directory
+4. Drag the SFML binaries `sfml-window-2.dll, sfml-graphics-2.dll and sfml-system-2.dll` into your output directory
 
 #Credits
 Inspired by: https://github.com/xSnapi/cpp_pathfinding_using_sfml
