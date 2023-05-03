@@ -4,7 +4,7 @@ In this program you can create a maze and set the start point and a goal, the A*
 
 The A* algorithm finds a path from the start node to the end node by checking for open neighbors of the current node, computing a heuristic for each of the neighbors, and adding those neighbors to the list of open nodes to explore next. The next node to explore is the one with the lowest total cost + heuristic (g + h). This process is repeated until the end is found, as long as there are still open nodes to explore.
 
-// TODO: Tomorrow add a picture or gif here.
+![image](https://user-images.githubusercontent.com/113075816/235825067-03b3fdc7-b7b5-4c6a-9fdc-6d71f05fe31a.png)
 
 ## Get Started
 
