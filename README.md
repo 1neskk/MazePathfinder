@@ -20,7 +20,7 @@ Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS suppo
 ### Credits
 
 #### Inspired by:
-- [xSnapi pathfinding implementation using SFML](https://github.com/xSnapi/cpp_pathfinding_using_sfml)
+- [xSnapi's pathfinding implementation using SFML](https://github.com/xSnapi/cpp_pathfinding_using_sfml)
 
 ### Issues
 Feel free to open a Issue if you need some help!
