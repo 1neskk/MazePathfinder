@@ -1,0 +1,3 @@
+[submodule "SFML"]
+	path = Maze/thirdparty
+	url = https://github.com/SFML/SFML
