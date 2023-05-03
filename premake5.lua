@@ -28,13 +28,13 @@ workspace "Maze"
 
         includedirs
         {
-            "%{prj.name}/thirdparty/SFML-2.5.1/include"
+            "%{prj.name}/thirdparty/SFML/include"
             
         }
 
         libdirs
         {
-            "%{prj.name}/thirdparty/SFML-2.5.1/lib"
+            "%{prj.name}/thirdparty/SFML/lib"
         }
 
         links
