@@ -14,7 +14,7 @@ Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS suppo
 
 1. Clone recursively: `git clone --recursive https://github.com/1neskk/MazePathfinder`
 2. Run `scripts/setup.bat`
-3. Open `Maze.sln` and hit F7 to build (change configuration to Release or Dist first)
+3. Open `Maze.sln` and hit F7 to build (change configuration to Dist first)
 4. Drag the SFML binaries `sfml-window-2.dll, sfml-graphics-2.dll and sfml-system-2.dll` into your output directory
 5. Run the program
 - You will need to use the [SFML 2.5.1](https://www.sfml-dev.org/files/SFML-2.5.1-windows-vc15-64-bit.zip) from their website instead of the current submodule.
