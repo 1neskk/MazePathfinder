@@ -10,6 +10,8 @@ The A* algorithm finds a path from the start node to the end node by checking fo
 
 Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS support on the way!
 
+---
+
 ## Windows
 
 1. Clone recursively: `git clone --recursive https://github.com/1neskk/MazePathfinder`
