@@ -15,7 +15,10 @@ Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS suppo
 3. Open the solution file and hit F7 to build
 4. Drag the SFML binaries `sfml-window-2.dll, sfml-graphics-2.dll and sfml-system-2.dll` into your output directory
 
-#Credits
+--
+
+###Credits
+
 Inspired by: https://github.com/xSnapi/cpp_pathfinding_using_sfml
 
 ### Issues
