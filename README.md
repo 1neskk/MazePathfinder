@@ -9,7 +9,7 @@ The A* algorithm finds a path from the start node to the end node by checking fo
 ## Get Started
 
 Officially supports Windows 10/11 with Visual Studio 2022. Linux and MacOS support on the way!
-
+ 
 ---
 
 ## Windows
