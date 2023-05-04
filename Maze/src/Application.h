@@ -65,5 +65,5 @@ private:
 	float delta_time = 1.f / 60.f;
 	unsigned int FPS = 0;
 	float last_time = 0.f;
-	bool diagonal = true;
+	bool diagonal = false; // set to true to allow diagonal movement
 };

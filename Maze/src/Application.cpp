@@ -208,8 +208,6 @@ void Application::updateButtons()
 		this->start_node	= nullptr;
 		this->end_node		= nullptr;
 	}
-	else if (this->Buttons["diagonal"].isPressed())
-		this->diagonal = !this->diagonal;
 }
 
 void Application::initButtons()
@@ -223,10 +221,6 @@ void Application::initButtons()
 		{
 			"reset", Button(&this->font, "RESET", sf::Vector2f(30.0f, 685.0f), sf::Color(247, 40, 71))
 		},
-
-		{
-			"diagonal", Button(&this->font, "DIAGONAL", sf::Vector2f(30.0f, 735.0f))
-		},
 	};
 	this->Buttons = list;
 }
@@ -235,20 +229,15 @@ void Application::updateTexts()
 {
 	this->Texts["lt"].setString("Last time: " + std::to_string(this->last_time));
 	this->Texts["fps"].setString(std::to_string(this->FPS) + " FPS");
-
-	(this->diagonal) ? this->Texts["diagonal"].setString("-ON") : this->Texts["diagonal"].setString("-OFF");
 }
 
 void Application::initTexts()
 {
 	this->Texts["info"].setString("A* Search Algorithm\n\nHold A to place the \"start\" node\n\nHold D to place the \"goal\" node");
-	this->Texts["info"].setPosition(sf::Vector2f(800.0f, 660.0f)); //800.f
+	this->Texts["info"].setPosition(sf::Vector2f(800.0f, 660.0f));
 
-	this->Texts["lt"].setPosition(sf::Vector2f(30.0f, 800.0f));
-
-	this->Texts["fps"].setPosition(sf::Vector2f(30.0f, 825.0f));
-
-	this->Texts["diagonal"].setPosition(sf::Vector2f(350.0f, 753.0f));
+	this->Texts["lt"].setPosition(sf::Vector2f(30.0f, 750.0f));
+	this->Texts["fps"].setPosition(sf::Vector2f(30.0f, 775.0f));
 
 	for (auto& t : this->Texts)
 	{
